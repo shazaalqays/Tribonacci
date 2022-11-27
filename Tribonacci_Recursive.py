@@ -7,10 +7,10 @@ def Rfunc(num):
     else:
         return Rfunc(num-1) + Rfunc(num-2) + Rfunc(num-3)
 
-num = 5;
+num = 5
 if num >= 0:
     for i in range(num):
-        print(Rfunc(i));
-    print('Recursive Tribonacci ', Rfunc(num));
+        print(Rfunc(i))
+    print('Recursive Tribonacci ', Rfunc(num))
 else:
-    print('You entered negative number');
+    print('You entered negative number')
